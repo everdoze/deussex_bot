@@ -12,6 +12,6 @@ app.post('/webhook', (req, res) => {
     res.status(200).send('OK');
 });
 
-app.listen(80, () => {
-    console.log('Прокси-сервер запущен на порту 80');
+app.listen(3000, () => {
+    console.log('Прокси-сервер запущен на порту 3000');
 });
